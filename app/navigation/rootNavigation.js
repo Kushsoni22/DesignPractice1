@@ -1,14 +1,10 @@
 /* eslint-disable react/react-in-jsx-scope */
-import {NavigationContainer} from '@react-navigation/native';
+/* eslint-disable prettier/prettier */
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Authap from './Screens/Authap';
-import Confirm from './Screens/ConfirmPass';
-import Otp from './Screens/Otp';
-import Signin from './Screens/Signin';
-import Signup from './Screens/Signup';
+import { Authap,Confirm,Signin,Signup,Otp } from 'screens';
 
 const stack = createNativeStackNavigator();
-function RootContainer() {
+export function RootContainer() {
   return (
     <stack.Navigator
       initialRouteName="signup"
@@ -23,13 +19,3 @@ function RootContainer() {
     </stack.Navigator>
   );
 }
-
-function App() {
-  return (
-    <NavigationContainer>
-      <RootContainer />
-    </NavigationContainer>
-  );
-}
-
-export default App;

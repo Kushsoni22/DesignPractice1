@@ -1,0 +1,177 @@
+/* eslint-disable prettier/prettier */
+// import {scale, verticalScale, moderateScale} from 'react-native-size-matters';
+import {StyleSheet} from 'react-native';
+import { color, fonts, fontSize, fontWeight,size } from 'theme';
+
+export const styles = StyleSheet.create({
+  rootTexr: {marginBottom: size.moderateScale(25, 0.1), padding: 0},
+  Textr: {
+    textAlign: 'center',
+    marginTop: size.moderateScale(20, 0.1),
+    lineHeight: size.moderateScale(17, 0.1),
+    color: color.Textr,
+  },
+  Text: {marginHorizontal: size.moderateScale(24, 0.1), flexDirection: 'row'},
+
+  RightScale: {marginLeft: size.moderateScale(5, 0.1)},
+  leftScale1: {marginLeft: size.moderateScale(25, 0.1)},
+  colors: {color: color.fontMiddle, fontSize: fontSize.small},
+
+  root: {
+    flex: 1,
+    backgroundColor: 'white',
+    paddingBottom: size.moderateScale(15,0.1),
+  },
+  rootp: {
+    textAlign: 'center',
+    // marginTop: moderateScale(20, 0.1),
+    marginHorizontal:size.moderateScale(14, 0.1),
+    fontSize: fontSize.mediumSmall,
+    color: color.Textr,
+    // lineHeight: 15,
+    // fontWeight: 500
+  },
+  rootAccountHeld: {
+    color: color.fontMiddle,
+  },
+  rootface: {
+    marginLeft: size.moderateScale(18, 0.1),
+    textAlignVertical: 'center',
+    color: color.Textr,
+    fontFamily: fonts.poppinsFont,
+    fontWeight: fontWeight.medium,
+  },
+  rooti: {
+    flex: 1,
+    height: size.verticalScale(1),
+    backgroundColor: color.Line,
+    // marginLeft: moderateScale(10, 0.1),
+  },
+  rootText1: {
+    flex: 1,
+    height: size.verticalScale(1),
+    backgroundColor: color.Line,
+    // marginRight: moderateScale(10, 0.1),
+    // marginBottom: moderateScale(5, 0.1),
+  },
+  terms: {
+    flexWrap: 'wrap',
+    // flex: 1,
+    marginLeft: size.moderateScale(7, 0.1),
+    height: size.verticalScale(35),
+    textAlignVertical: 'center',
+    width: size.scale(265),
+    color: color.fontMiddle,
+    fontSize: fontSize.small,
+  },
+  rootP: {
+    width: size.scale(50),
+    textAlign: 'center',
+    color: 'black',
+  },
+  signuproot: {
+    justifyContent: 'center',
+    marginTop: size.moderateScale(10, 0.1),
+    paddingVertical: size.moderateScale(18, 0.1),
+    // paddingHorizontal: moderateScale(114),
+    marginHorizontal: size.moderateScale(24, 0.1),
+    borderRadius: size.moderateScale(14, 0.1),
+    backgroundColor: color.Primary,
+    // shadowRadius: 5,
+    elevation: 20,
+    shadowColor: color.Primary,
+    // flexDirection: 'row',
+    width: size.scale(300),
+  },
+  rootH: {flexDirection: 'row', alignItems: 'center'},
+  signup: {
+    textAlign: 'center',
+    textAlignVertical: 'center',
+    color: 'white',
+    fontFamily: fonts.poppinsFont,
+    fontSize: fontSize.large,
+  },
+  rootmargin: {
+    marginTop: size.moderateScale(12, 0.1),
+    marginBottom: size.moderateScale(6, 0.1),
+  },
+  TextDisplay: {
+    fontFamily: fonts.poppinsFont,
+    fontWeight: fontWeight.light,
+    textAlignVertical: 'center',
+    flexDirection: 'row',
+    marginTop: size.moderateScale(12, 0.1),
+    marginLeft: size.moderateScale(35, 0.1),
+  },
+  signupText: {color: color.fontMiddle, fontSize: fontSize.small},
+  SignIn: {
+    color: color.Primary,
+    fontSize: fontSize.small,
+  },
+  forgetText: {
+    marginLeft: 'auto',
+    color: color.placeholderColor,
+    fontFamily: fonts.poppinsFont,
+    marginBottom: size.moderateScale(10, 0.1),
+  },
+  tinyLogo: {
+    width: size.scale(50),
+    height: size.verticalScale(50),
+  },
+  Facebook: {
+    flexDirection: 'row',
+    paddingVertical: size.moderateScale(13, 0.1),
+    paddingHorizontal: size.moderateScale(20, 0.1),
+    backgroundColor: color.innerOtp1,
+    width: size.scale(145),
+    // justifyContent: 'center',
+    alignSelf: 'center',
+    marginBottom: size.moderateScale(0, 0.1),
+    borderRadius: size.moderateScale(14, 0.1),
+  },
+  mainFacebook: {
+    paddingHorizontal: size.moderateScale(24, 0.1),
+  },
+  FacebookRoot: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: size.moderateScale(17, 0.1),
+    marginBottom: size.moderateScale(4, 0.1),
+  },
+  HeaderSignup: {
+    fontWeight: fontWeight.dark,
+    fontSize: fontSize.veryLarge,
+    lineHeight: size.moderateScale(40, 0.1),
+    fontFamily: fonts.poppinsFont,
+    color: color.Header,
+    marginTop: size.moderateScale(12, 0.1),
+    marginBottom: size.moderateScale(14, 0.1),
+  },
+  rootHeader: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: size.moderateScale(40, 0.1),
+    marginBottom: size.moderateScale(10, 0.1),
+  },
+  placeh: {
+    paddingHorizontal: size.moderateScale(18, 0.1),
+    paddingVertical: size.moderateScale(3, 0.1),
+    backgroundColor: color.innerOtp1,
+    // marginHorizontal: moderateScale(10),
+    marginVertical: size.moderateScale(7, 0.1),
+    borderRadius: size.moderateScale(15, 0.1),
+    fontFamily: fonts.poppinsFont,
+    flexDirection: 'row',
+  },
+
+  rootCompareText: {marginHorizontal: size.moderateScale(11, 0.1)},
+  CompareText: {
+    textAlign: 'center',
+    marginTop: size.moderateScale(20, 0.1),
+    // marginHorizontal: moderateScale(11, 0.1),
+    marginBottom: size.moderateScale(20, 0.1),
+    color: color.Textr,
+  },
+  placeholderRoot: {marginHorizontal: size.moderateScale(24, 0.1)},
+  marginLeftScale: {marginLeft: size.moderateScale(25, 0.1)},
+});
