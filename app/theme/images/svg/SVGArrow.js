@@ -2,7 +2,7 @@
 import * as React from 'react';
 import Svg, {Path} from 'react-native-svg';
 
-function SvgComponentarrow(props) {
+export function SvgComponentarrow(props) {
   return (
     <Svg
       width={16}
@@ -19,4 +19,3 @@ function SvgComponentarrow(props) {
   );
 }
 
-export default SvgComponentarrow;

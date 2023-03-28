@@ -2,7 +2,7 @@
 import * as React from 'react';
 import Svg, {Rect, Defs, Pattern, Use, Image} from 'react-native-svg';
 
-function SvgComponent(props) {
+export function SvgComponent(props) {
   return (
     <Svg
       width={70}
@@ -33,4 +33,3 @@ function SvgComponent(props) {
   );
 }
 
-export default SvgComponent;

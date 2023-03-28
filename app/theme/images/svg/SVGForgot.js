@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import * as React from 'react';
 import Svg, {Rect, Defs, Pattern, Use, Image} from 'react-native-svg';
-function SvgComponent2() {
+export function SvgComponent2() {
   return (
     <Svg
       width={70}
@@ -29,4 +29,3 @@ function SvgComponent2() {
     </Svg>
   );
 }
-export default SvgComponent2;

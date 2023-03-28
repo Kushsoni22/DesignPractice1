@@ -2,7 +2,7 @@
 import * as React from 'react';
 import Svg, {Path} from 'react-native-svg';
 
-function SvgComponenteye(props) {
+export function SvgComponenteye(props) {
   return (
     <Svg
       width={22}
@@ -19,4 +19,3 @@ function SvgComponenteye(props) {
   );
 }
 
-export default SvgComponenteye;

@@ -2,7 +2,7 @@
 /* eslint-disable prettier/prettier */
 import {View, Text, TouchableOpacity, ScrollView} from 'react-native';
 import {SvgComponent1} from 'theme';
-import {styles} from './style';
+import {styles2} from 'screens';
 import {ButtonSignInLoginIn} from 'components';
 import {TextInput1, TextInput2} from 'components';
 import {SvgFacebook, SvgHeader} from 'components';
@@ -17,25 +17,25 @@ const Signin = ({navigation}) => {
   };
 
   return (
-    <ScrollView style={styles.root}>
-      <View style={styles.root}>
-        <View style={styles.rootHeader}>
+    <ScrollView style={styles2.root}>
+      <View style={styles2.root}>
+        <View style={styles2.rootHeader}>
           <SvgHeader function={<SvgComponent1 />} />
-          <Text style={styles.HeaderSignup}>Sign In</Text>
-          <Text style={styles.rootp}>
+          <Text style={styles2.HeaderSignup}>Sign In</Text>
+          <Text style={styles2.rootp}>
             It was popularised in the 1960s with the release of Letraset
             sheetscontaining Lorem Ipsum.
           </Text>
         </View>
-        <View style={styles.mainFacebook}>
+        <View style={styles2.mainFacebook}>
           <SvgFacebook name="Facebook" name1="Google" />
-          <View style={styles.rootmargin}>
-            <View style={styles.rootH}>
-              <View style={styles.rooti} />
+          <View style={styles2.rootmargin}>
+            <View style={styles2.rootH}>
+              <View style={styles2.rooti} />
               <View>
-                <Text style={styles.rootP}>Or</Text>
+                <Text style={styles2.rootP}>Or</Text>
               </View>
-              <View style={styles.rootText1} />
+              <View style={styles2.rootText1} />
             </View>
           </View>
 
@@ -44,17 +44,17 @@ const Signin = ({navigation}) => {
 
           <View>
             <TouchableOpacity onPress={() => ForgetPassHandler()}>
-              <Text style={styles.forgetText}>Forgot Password?</Text>
+              <Text style={styles2.forgetText}>Forgot Password?</Text>
             </TouchableOpacity>
           </View>
         <ButtonSignInLoginIn name="Log In" />
         </View>
 
 
-        <View style={styles.TextDisplay}>
-          <Text style={styles.rootAccountHeld}>Don't have account? </Text>
+        <View style={styles2.TextDisplay}>
+          <Text style={styles2.rootAccountHeld}>Don't have account? </Text>
           <TouchableOpacity onPress={SignInHandler}>
-            <Text style={styles.SignIn}>Sign Up</Text>
+            <Text style={styles2.SignIn}>Sign Up</Text>
           </TouchableOpacity>
         </View>
       </View>

@@ -3,7 +3,7 @@
 import {StyleSheet} from 'react-native';
 import {color, fonts, fontSize, fontWeight, size} from 'theme';
 
-export const styles = StyleSheet.create({
+export const styles3 = StyleSheet.create({
 
   leftScale: {
     marginLeft: size.moderateScale(25, 0.1),

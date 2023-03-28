@@ -3,7 +3,7 @@
 import {StyleSheet} from 'react-native';
 import { color, fonts, fontSize, fontWeight,size } from 'theme';
 
-export const styles = StyleSheet.create({
+export const styles4 = StyleSheet.create({
   holder: {
     marginTop: size.moderateScale(10,0.1),
   },

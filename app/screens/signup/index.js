@@ -4,7 +4,7 @@ import {useState} from 'react';
 import {Text, TouchableOpacity, View, ScrollView} from 'react-native';
 import {SvgComponent} from 'theme';
 
-import {styles} from './style';
+import {styles1} from 'screens';
 import {ButtonSignInLoginIn} from 'components';
 import {MyCheckbox} from 'components';
 import {TextInput1, TextInput2, TextInputtext} from 'components';
@@ -18,39 +18,39 @@ const Signup = ({navigation}) => {
   const [checked, setChecked] = useState(false);
 
   return (
-    <ScrollView style={styles.root}>
-      <View style={styles.root}>
-        <View style={styles.rootHeader}>
+    <ScrollView style={styles1.root}>
+      <View style={styles1.root}>
+        <View style={styles1.rootHeader}>
           <SvgHeader function={<SvgComponent />} />
-          <Text style={styles.HeaderSignup}>Sign Up</Text>
-          <Text style={styles.rootp}>
+          <Text style={styles1.HeaderSignup}>Sign Up</Text>
+          <Text style={styles1.rootp}>
             It was popularised in the 1960s with the release of Letraset
             sheetscontaining Lorem Ipsum.
           </Text>
         </View>
-        <View style={styles.mainFacebook}>
+        <View style={styles1.mainFacebook}>
           <SvgFacebook name="Facebook" name1="Google" />
 
-          <View style={styles.rootmargin}>
-            <View style={styles.rootH}>
-              <View style={styles.rooti} />
+          <View style={styles1.rootmargin}>
+            <View style={styles1.rootH}>
+              <View style={styles1.rooti} />
               <View>
-                <Text style={styles.rootP}>Or</Text>
+                <Text style={styles1.rootP}>Or</Text>
               </View>
-              <View style={styles.rootText1} />
+              <View style={styles1.rootText1} />
             </View>
           </View>
 
           <TextInputtext />
           <TextInput1 />
           <TextInput2 placeh="Password" />
-        <View style={styles.checkbox}>
+        <View style={styles1.checkbox}>
           <MyCheckbox onChange={() => setChecked(!checked)} checked={checked} />
-          <Text style={styles.terms}>
+          <Text style={styles1.terms}>
             I am agree to The{' '}
-            <Text style={styles.SignIn}>Terms of Service</Text>
+            <Text style={styles1.SignIn}>Terms of Service</Text>
             <Text> </Text>
-            and <Text style={styles.SignIn}>Privacy Policy</Text>
+            and <Text style={styles1.SignIn}>Privacy Policy</Text>
           </Text>
         </View>
         <ButtonSignInLoginIn name="Sign Up" />
@@ -58,10 +58,10 @@ const Signup = ({navigation}) => {
 
 
 
-        <View style={styles.TextDisplay}>
-          <Text style={styles.signupText}>Do you have account? </Text>
+        <View style={styles1.TextDisplay}>
+          <Text style={styles1.signupText}>Do you have account? </Text>
           <TouchableOpacity onPress={SignInHandler}>
-            <Text style={styles.SignIn}>Sign In</Text>
+            <Text style={styles1.SignIn}>Sign In</Text>
           </TouchableOpacity>
         </View>
       </View>

@@ -4,7 +4,7 @@ import {StyleSheet} from 'react-native';
 import {color, fonts, fontSize, fontWeight, size} from 'theme';
 
 
-export const styles = StyleSheet.create({
+export const styles5 = StyleSheet.create({
   root: {
     flex: 1,
     backgroundColor: 'white',

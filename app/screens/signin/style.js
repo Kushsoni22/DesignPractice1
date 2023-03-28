@@ -3,7 +3,7 @@
 import {StyleSheet} from 'react-native';
 import { color, fonts, fontSize, fontWeight,size } from 'theme';
 
-export const styles = StyleSheet.create({
+export const styles2 = StyleSheet.create({
   rootTexr: {marginBottom: size.moderateScale(25, 0.1), padding: 0},
   Textr: {
     textAlign: 'center',

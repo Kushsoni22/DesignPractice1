@@ -8,7 +8,7 @@ import {
   ScrollView,
 } from 'react-native';
 import {Svg} from 'react-native-svg';
-import { styles } from './style';
+import { styles4 } from 'screens';
 
 import {SvgComponent4} from 'theme';
 import {SvgComponent5} from 'theme';
@@ -25,41 +25,41 @@ const Confirm = ({navigation}) => {
   };
 
   return (
-    <ScrollView style={styles.root}>
+    <ScrollView style={styles4.root}>
     <View
-    style={styles.root}>
-      <Pressable style={styles.arrow} onPress={() => navigation.goBack()}>
+    style={styles4.root}>
+      <Pressable style={styles4.arrow} onPress={() => navigation.goBack()}>
         <Svg width="40" height="20">
           <SvgComponentarrow />
         </Svg>
       </Pressable>
-      <View style={styles.rootHeader}>
+      <View style={styles4.rootHeader}>
       <Threelines name1={<SvgComponent5 />} name2={<SvgComponent5 />} name3={<SvgComponent4 />} />
         <View
-          style={styles.leftScale}>
+          style={styles4.leftScale}>
           <Svgreset name={<SvgComponentLock />} />
         </View>
-        <Text style={styles.HeaderSignup}>Reset Password</Text>
+        <Text style={styles4.HeaderSignup}>Reset Password</Text>
 
-        <View style={styles.rootTexr}>
+        <View style={styles4.rootTexr}>
           <Text
-            style={styles.Textr}>
+            style={styles4.Textr}>
             It was popularised in the 1960s with the release of Letraset
             sheetscontaining Lorem Ipsum.
           </Text>
-          <View style={styles.holder}>
+          <View style={styles4.holder}>
           <TextInput2 placeh="Enter new password" />
 
           <TextInput2 placeh="Confirm New Password" />
           </View>
         </View>
 
-        <View style={styles.signuproot}>
+        <View style={styles4.signuproot}>
           <TouchableOpacity onPress={SignUpHandler}>
             <View
-              style={styles.Spinner}>
+              style={styles4.Spinner}>
               <Icon name="spinner" size={20} color="white" />
-              <Text style={styles.signup}>Submitting...</Text>
+              <Text style={styles4.signup}>Submitting...</Text>
             </View>
           </TouchableOpacity>
         </View>
